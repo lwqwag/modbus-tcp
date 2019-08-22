@@ -1,5 +1,4 @@
-﻿using DotNetty.Handlers.Logging;
-using DotNetty.Transport.Bootstrapping;
+﻿using DotNetty.Transport.Bootstrapping;
 using DotNetty.Transport.Channels;
 using DotNetty.Transport.Channels.Sockets;
 using Karonda.ModbusTcp.Entity;
@@ -7,9 +6,7 @@ using Karonda.ModbusTcp.Entity.Function.Request;
 using Karonda.ModbusTcp.Entity.Function.Response;
 using Karonda.ModbusTcp.Handler;
 using System;
-using System.Collections.Generic;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Karonda.ModbusTcp

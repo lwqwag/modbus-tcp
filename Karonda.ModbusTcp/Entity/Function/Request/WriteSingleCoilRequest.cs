@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Karonda.ModbusTcp.Entity.Function.Request
+﻿namespace Karonda.ModbusTcp.Entity.Function.Request
 {
     public class WriteSingleCoilRequest : WriteSingleCoil
     {

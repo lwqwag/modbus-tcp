@@ -1,7 +1,5 @@
-﻿using DotNetty.Common.Internal.Logging;
-using Karonda.ModbusTcp.Entity;
+﻿using Karonda.ModbusTcp.Entity;
 using Karonda.ModbusTcp.Entity.Function.Response;
-using Microsoft.Extensions.Logging.Console;
 using System;
 using System.Threading.Tasks;
 

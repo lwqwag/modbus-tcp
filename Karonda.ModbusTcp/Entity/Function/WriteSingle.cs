@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using DotNetty.Buffers;
+﻿using DotNetty.Buffers;
 
 namespace Karonda.ModbusTcp.Entity.Function
 {

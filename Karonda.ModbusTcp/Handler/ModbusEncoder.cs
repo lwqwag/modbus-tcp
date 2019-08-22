@@ -1,8 +1,5 @@
 ﻿using DotNetty.Transport.Channels;
 using Karonda.ModbusTcp.Entity;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Karonda.ModbusTcp.Handler
@@ -11,9 +8,8 @@ namespace Karonda.ModbusTcp.Handler
     {
         public override Task WriteAsync(IChannelHandlerContext context, object message)
         {
-            if (message is ModbusFrame)
+            if (message is ModbusFrame frame)
             {
-                var frame = (ModbusFrame)message;
                 return context.WriteAndFlushAsync(frame.Encode());
             }
 

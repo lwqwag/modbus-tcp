@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Karonda.ModbusTcp.Entity.Function.Response
+﻿namespace Karonda.ModbusTcp.Entity.Function.Response
 {
     public class WriteMultipleRegistersResponse : ReadWriteMultiple
     {

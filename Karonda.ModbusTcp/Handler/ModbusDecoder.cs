@@ -3,11 +3,8 @@ using DotNetty.Codecs;
 using DotNetty.Transport.Channels;
 using Karonda.ModbusTcp.Entity;
 using Karonda.ModbusTcp.Entity.Function;
-using Karonda.ModbusTcp.Entity.Function.Request;
-using Karonda.ModbusTcp.Entity.Function.Response;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Karonda.ModbusTcp.Handler
 {

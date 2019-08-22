@@ -3,7 +3,6 @@ using Karonda.ModbusTcp.Entity;
 using Karonda.ModbusTcp.Entity.Function;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 
 namespace Karonda.ModbusTcp.Handler

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Karonda.ModbusTcp.Entity
+﻿namespace Karonda.ModbusTcp.Entity
 {
     enum ModbusCommand : short
     {

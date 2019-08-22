@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Text;
 using Karonda.ModbusTcp.Entity;
 using Karonda.ModbusTcp.Entity.Function.Request;
 using Karonda.ModbusTcp.Entity.Function.Response;

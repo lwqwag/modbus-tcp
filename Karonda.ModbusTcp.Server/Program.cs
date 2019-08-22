@@ -1,6 +1,4 @@
-﻿using DotNetty.Common.Internal.Logging;
-using Microsoft.Extensions.Logging.Console;
-using System;
+﻿using System;
 using System.Threading.Tasks;
 
 namespace Karonda.ModbusTcp.Server
